@@ -1,0 +1,117 @@
+/////////////////////////////////////////////////////////////////////////////////////
+[Sep. 27th 2016]
+
+TODO: Wait is swagger
+
+http://qiita.com/taizo/items/320d964e1cb81131de67
+
+TODO: Read to use express & swagger
+
+npm init
+npm install express --save
+npm install swagger-express --save-dev
+
+https://github.com/swagger-api/swagger-node
+
+/////////////////////////////////////////////////////////////////////////////////////
+[Sep. 28th 2016]
+
+https://scotch.io/tutorials/speed-up-your-restful-api-development-in-node-js-with-swagger
+https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens
+
+TODO: backend API
+        TODO: swagger
+        TODO: token based authentication (set authentication token in http header)
+        TODO: MongoDB for persistance
+        TODO: Test with POSTman
+
+
+TODO: Why don't you try to rewrite with swagger to practice with header parameters?
+
+
+
+https://mlab.com/databases/jwtsample#users
+
+
+https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens
+
+/////////////////////////////////////////////////////////////////////////////////////
+[Sep. 29th 2016]
+
+
+{
+  "success": true,
+  "message": "Enjoy your token!",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7Il9fdiI6ImluaXQiLCJhZG1pbiI6ImluaXQiLCJwYXNzd29yZCI6ImluaXQiLCJuYW1lIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWRtaW4iOnRydWUsInBhc3N3b3JkIjp0cnVlLCJuYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiX192IjowLCJhZG1pbiI6dHJ1ZSwicGFzc3dvcmQiOiJwYXNzd29yZCIsIm5hbWUiOiJOaWNrIENlcm1pbmFyYSIsIl9pZCI6IjU3ZWM2ZDIyZWNiYmM2MDYxYWU0OTllYSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3NTExNDE4NSwiZXhwIjoxNDc1MTE1NjI1fQ.ayn4E-wdz6Zj1fcodj5HnCy-4vjvuDiEtaZ1y2mNVeg"
+}
+
+
+TODO: Why don't you try to rewrite with swagger to practice with header parameters?
+
+
+Succeeded sign up
+
+/////////////////////////////////////////////////////////////////////////////////////
+[Sep. 30th 2016]
+
+TODO: Why don't you try to rewrite with swagger to practice with header parameters?
+        TODO: movie-manager
+TODO: Authentication framework like http://passportjs.org/
+
+
+{
+  "success": true,
+  "description": "Enjoy your token!",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7Il9fdiI6ImluaXQiLCJwYXNzd29yZCI6ImluaXQiLCJlbWFpbCI6ImluaXQiLCJuYW1lIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsImVtYWlsIjp0cnVlLCJuYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiX192IjowLCJwYXNzd29yZCI6ImEiLCJlbWFpbCI6ImEiLCJuYW1lIjoiYSIsIl9pZCI6IjU3ZWRjZDdkYTAxYjgzMGUyMTUyZmRkYiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3NTIwNTAzMCwiZXhwIjoxNDc1MjA2NDcwfQ.7SlU1So3mEFX4co2E-1RfL6rO6Aipn0MzqL6YG7HOCM"
+}
+
+TODO: How to get user info from token in header
+
+
+{
+  "success": true,
+  "description": "Enjoy your token!",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7Il9fdiI6ImluaXQiLCJwYXNzd29yZCI6ImluaXQiLCJlbWFpbCI6ImluaXQiLCJuYW1lIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsImVtYWlsIjp0cnVlLCJuYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiX192IjowLCJwYXNzd29yZCI6ImIiLCJlbWFpbCI6ImIiLCJuYW1lIjoiYiIsIl9pZCI6IjU3ZWUyY2I5NjcwZjI3MTMyMTc0MTNiNCJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3NTIzMDAwNywiZXhwIjoxNDc1MjMxNDQ3fQ.C0LASrYkxaU7FA3EwP8W6NQ85IlLXjdTIKnofeW8YE8"
+}
+
+
+
+
+
+
+
+req.headers[x-access-token] : {"host":"localhost:10010","connection":"keep-alive","content-length":"0","cache-control":"no-cache","origin":"chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop","x-access-token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7Il9fdiI6ImluaXQiLCJwYXNzd29yZCI6ImluaXQiLCJlbWFpbCI6ImluaXQiLCJuYW1lIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsImVtYWlsIjp0cnVlLCJuYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiX192IjowLCJwYXNzd29yZCI6ImIiLCJlbWFpbCI6ImIiLCJuYW1lIjoiYiIsIl9pZCI6IjU3ZWUyY2I5NjcwZjI3MTMyMTc0MTNiNCJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3NTIzMDAwNywiZXhwIjoxNDc1MjMxNDQ3fQ.C0LASrYkxaU7FA3EwP8W6NQ85IlLXjdTIKnofeW8YE8","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36","postman-token":"6016caf4-22a9-68d7-3246-788adb3f56b7","accept":"*/*","accept-encoding":"gzip, deflate","accept-language":"ja,en-US;q=0.8,en;q=0.6"}
+decode token...
+
+
+req.headers[x-access-token] : {"host":"localhost:10010","connection":"keep-alive","access-control-request-method":"POST","origin":"http://127.0.0.1:49729","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36","access-control-request-headers":"content-type, x-access-token","accept":"*/*","referer":"http://127.0.0.1:49729/","accept-encoding":"gzip, deflate, sdch","accept-language":"ja,en-US;q=0.8,en;q=0.6"}
+
+
+swagger: "2.0"
+...
+consumes:
+  - application/json
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+paths:
+  ...
+  /movie:
+    # our controller name
+    x-swagger-router-controller: movie
+    ...
+    post:
+      description: add a new movie to the list
+      operationId: save
+      parameters:
+        - name: x-access-token
+          in: header
+          description: token to be passed as a header
+          required: true
+          type: string
+        ...
+      responses:
+        ...
+
+http://stackoverflow.com/questions/39790101/how-to-pass-jwt-on-header-with-swagger
+
